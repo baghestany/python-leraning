@@ -10,6 +10,6 @@ def  Fac(x):
 
 
 
-x = int(input("Please enter a number:"))
+x = int(input("Please Enter a Number:"))
 print(f"Factorial of {x}: " , Fac(x))
 

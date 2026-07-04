@@ -15,7 +15,7 @@ try :
        while True :
         try :
          amount = int(input(f"Enter amount for transaction {i}: "))
-         totalamount = totalamount+amount
+         totalamount += amount
          break
         except ValueError :
           print("Invalid amount. Try again")
